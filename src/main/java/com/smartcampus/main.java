@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 public class Main {
 
     private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
-    public static final String BASE_URI = "http://0.0.0.0:8080/";
+    public static final String BASE_URI = "http://0.0.0.0:8080/api/v1/";
 
     public static void main(String[] args) throws IOException, InterruptedException {
         final ResourceConfig config = new ResourceConfig().packages("com.smartcampus");
